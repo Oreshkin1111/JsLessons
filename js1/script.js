@@ -72,3 +72,8 @@
 // let heightParallepiped = 10;
 // let volumeParallepiped = lengthParallepiped * widthParallepiped * heightParallepiped;
 // console.log(volumeParallepiped);
+
+// Задание 1 (тайминг 15 минут)
+
+
+
