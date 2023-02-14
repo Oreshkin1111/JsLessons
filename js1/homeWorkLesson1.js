@@ -6,9 +6,9 @@
 
 // Решение
 
-let temperatureCelsius = 25;
-let temperatureFahrenheit = (9 / 5) * temperatureCelsius + 32;
-console.log(`Температура по Форенгейту:  ${ temperatureFahrenheit }`);
+// let temperatureCelsius = 25;
+// let temperatureFahrenheit = (9 / 5) * temperatureCelsius + 32;
+// console.log(`Температура по Форенгейту:  ${ temperatureFahrenheit }`);
 
 
 // Задание 2
