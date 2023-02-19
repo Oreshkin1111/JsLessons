@@ -86,11 +86,11 @@
 // xxxx
 // xxxxx
 
-let arr = [];
-arr[0] = 1;
-let num = arr[0];
-for (let i = 0; i < 20; i++) {
-    arr[i] = num++;
-    console.log(arr);
+// let arr = [];
+// arr[0] = 1;
+// let num = arr[0];
+// for (let i = 0; i < 20; i++) {
+//     arr[i] = num++;
+//     console.log(arr);
 
-}
+// }
