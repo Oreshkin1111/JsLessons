@@ -9,8 +9,9 @@
 // 2. Внутри всех элементов на странице, которые имеют класс "card-link", поменяйте текст внутри элемента на "ссылка".
 // const linkCard = document.querySelectorAll('a.card-link');
 // linkCard.forEach((element) => {
-//     element.textContent = element.textContent.replace('Card link', 'ссылка');
-//     element.textContent = element.textContent.replace('Another link', 'ссылка');
+    // element.textContent = element.textContent.replace('Card link', 'ссылка'); //1 вар
+    // element.textContent = element.textContent.replace('Another link', 'ссылка');// 1вар
+    // element.textContent = 'ссылка';//2 вар лучше меньше кода
 // });
 
 // []()
@@ -38,7 +39,8 @@
 // 6. Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
 
 // const cardTitle = document.querySelector('.card-title');
-// console.log(cardTitle.parentNode);
+// console.log(cardTitle.parentNode); // выводит родительский узел со всем содержимым
+// console.log(cardTitle.parentNode.nodeName); // выводит имя родительского узла
 
 
 // []()
@@ -53,3 +55,5 @@
 // const subtitle = document.querySelector('h6');
 // console.log(subtitle);
 // subtitle.remove();
+
+// document.querySelector('h6').remove(); //оптимальное решение
